@@ -1,16 +1,15 @@
 package com.kkb.mybatis.phase01;
 
-import java.io.InputStream;
-
+import com.kkb.mybatis.phase01.dao.UserDao;
+import com.kkb.mybatis.phase01.dao.UserDaoImpl;
+import com.kkb.mybatis.phase01.po.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.kkb.mybatis.phase01.dao.UserDao;
-import com.kkb.mybatis.phase01.dao.UserDaoImpl;
-import com.kkb.mybatis.phase01.po.User;
+import java.io.InputStream;
 
 /**
  * 测试入门案例
